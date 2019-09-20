@@ -948,6 +948,8 @@ GameObject:
   - component: {fileID: 997282762959220432}
   - component: {fileID: 997282763339084675}
   - component: {fileID: -3713433415697285967}
+  - component: {fileID: 7826576794262881197}
+  - component: {fileID: 3165237766052888627}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Untagged
@@ -1037,7 +1039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57acc765aaa4e274891dfa84d3f47020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12
+  speed: 2
 --- !u!114 &-3713433415697285967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1050,7 +1052,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ad91109776e0894196c4bdeb397eda4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bound: 30
+--- !u!65 &7826576794262881197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997282762951838594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.101064205, y: 0.22313462, z: 0.32723418}
+  m_Center: {x: 0.04801307, y: 0.080419205, z: -0.040033292}
+--- !u!114 &3165237766052888627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997282762951838594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a42852be79db054aa80a0bde03c9753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &997282762951838746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,6 +1087,7 @@ GameObject:
   m_Component:
   - component: {fileID: 997282762951557798}
   - component: {fileID: 997282762955052986}
+  - component: {fileID: 7343456694391311642}
   m_Layer: 0
   m_Name: SM_GermanShepherd_01
   m_TagString: Untagged
@@ -1175,6 +1202,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000009313226, y: -0.026036747, z: 0.09034608}
     m_Extent: {x: 0.045073755, y: 0.10734234, z: 0.13860275}
   m_DirtyAABB: 0
+--- !u!65 &7343456694391311642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997282762951838746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09014751, y: 0.21468468, z: 0.2772055}
+  m_Center: {x: -0.000000009313226, y: 0.107342355, z: -0.0015444234}
 --- !u!1 &997282762951839172
 GameObject:
   m_ObjectHideFlags: 0

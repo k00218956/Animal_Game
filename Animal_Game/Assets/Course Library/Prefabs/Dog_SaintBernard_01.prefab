@@ -3409,6 +3409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3878867044800553360}
   - component: {fileID: 3878867044805639330}
+  - component: {fileID: 72691612044794203}
   m_Layer: 0
   m_Name: SM_SaintBernard_01
   m_TagString: Untagged
@@ -3525,6 +3526,19 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000000018626451, y: -0.02942187, z: 0.09284967}
     m_Extent: {x: 0.060743935, y: 0.10395722, z: 0.13604975}
   m_DirtyAABB: 0
+--- !u!65 &72691612044794203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3878867044800346868}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.121579215, y: 0.20829833, z: 0.27258933}
+  m_Center: {x: -0.000045597553, y: 0.104149126, z: 0.0012040983}
 --- !u!1 &3878867044800347512
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,6 +3646,8 @@ GameObject:
   - component: {fileID: 3878867044809824040}
   - component: {fileID: 3878867045358011179}
   - component: {fileID: -7451168312955898351}
+  - component: {fileID: 4478300465812919910}
+  - component: {fileID: -5977707335286274463}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -3721,7 +3737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57acc765aaa4e274891dfa84d3f47020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 2
 --- !u!114 &-7451168312955898351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3732,6 +3748,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ad91109776e0894196c4bdeb397eda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4478300465812919910
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3878867044800351768}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17451176, y: 0.2017822, z: 0.26497418}
+  m_Center: {x: -0.021157026, y: 0.10175437, z: 0.032416493}
+--- !u!114 &-5977707335286274463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3878867044800351768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a42852be79db054aa80a0bde03c9753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3878867044800352308
